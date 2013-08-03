@@ -1,25 +1,9 @@
 <?php namespace Schickling\Validators;
 
 use Illuminate\Support\ServiceProvider;
+use Validator;
 
 class ValidatorsServiceProvider extends ServiceProvider {
-
-	/**
-	 * Indicates if loading of the provider is deferred.
-	 *
-	 * @var bool
-	 */
-	protected $defer = false;
-
-	/**
-	 * Bootstrap the application events.
-	 *
-	 * @return void
-	 */
-	public function boot()
-	{
-		$this->package('schickling/validators');
-	}
 
 	/**
 	 * Register the service provider.
@@ -28,17 +12,7 @@ class ValidatorsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
-	}
-
-	/**
-	 * Get the services provided by the provider.
-	 *
-	 * @return array
-	 */
-	public function provides()
-	{
-		return array();
+		Validator::extend('boolean', 'Schickling\Validators\Rules\BooleanRule@validate');
 	}
 
 }
