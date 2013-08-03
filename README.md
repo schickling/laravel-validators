@@ -15,7 +15,7 @@ A set of additional validator rules for Laravel 4
     }
     ```
 
-2. Add `Schickling\Backup\ValidatorsServiceProvider` to your config/app.php
+2. Add `Schickling\Validators\ValidatorsServiceProvider` to your config/app.php
 
 ## Available Rules
 
