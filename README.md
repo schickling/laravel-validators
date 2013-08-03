@@ -31,7 +31,8 @@ A set of additional validator rules for Laravel 4
 
 #### Bankaccounts
 ```php
-'myIban' => 'iban'
+'myIban' => 'iban',
+'myBic' => 'bic'
 ```
 
 
