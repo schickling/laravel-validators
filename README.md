@@ -20,7 +20,7 @@ A set of additional validator rules for Laravel 4
 ## Available Rules
 
 #### Boolean
-```
+```php
 'isEnabled' => 'boolean'
 ```
 
