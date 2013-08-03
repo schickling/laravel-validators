@@ -24,6 +24,11 @@ A set of additional validator rules for Laravel 4
 'isEnabled' => 'boolean'
 ```
 
+#### Optional
+```php
+'isOptional' => 'optional'
+```
+
 
 ## Upcoming Features
 

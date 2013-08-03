@@ -13,6 +13,7 @@ class ValidatorsServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		Validator::extend('boolean', 'Schickling\Validators\Rules\BooleanRule@validate');
+		Validator::extend('optional', 'Schickling\Validators\Rules\OptionalRule@validate');
 	}
 
 }
