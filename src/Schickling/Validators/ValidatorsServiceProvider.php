@@ -14,6 +14,7 @@ class ValidatorsServiceProvider extends ServiceProvider {
 	{
 		Validator::extend('boolean', 'Schickling\Validators\Rules\BooleanRule@validate');
 		Validator::extend('optional', 'Schickling\Validators\Rules\OptionalRule@validate');
+		Validator::extend('iban', 'Schickling\Validators\Rules\IbanRule@validate');
 	}
 
 }

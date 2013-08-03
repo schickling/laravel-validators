@@ -29,6 +29,11 @@ A set of additional validator rules for Laravel 4
 'isOptional' => 'optional'
 ```
 
+#### Bankaccounts
+```php
+'myIban' => 'iban'
+```
+
 
 ## Upcoming Features
 
