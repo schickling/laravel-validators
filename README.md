@@ -1,4 +1,4 @@
-laravel-validators [![Build Status](https://travis-ci.org/schickling/laravel-validators.png?branch=master)](https://travis-ci.org/schickling/laravel-validators)
+laravel-validators [![Build Status](https://travis-ci.org/schickling/laravel-validators.png?branch=master)](https://travis-ci.org/schickling/laravel-validators) [![Coverage Status](https://coveralls.io/repos/schickling/laravel-validators/badge.png)](https://coveralls.io/r/schickling/laravel-validators)
 ==================
 
 A set of additional validator rules for Laravel 4
