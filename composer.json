@@ -1,6 +1,6 @@
 {
     "name": "schickling/validators",
-    "description": "",
+    "description": "A set of additional validator rules for Laravel 4",
     "authors": [
         {
             "name": "Johannes Schickling",
