@@ -41,3 +41,7 @@ A set of additional validator rules for Laravel 4
 * Number precision rule
 * language specific string rule (umlauts etc)
 * Array validation
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/schickling/laravel-validators/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
